@@ -1,0 +1,1 @@
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.timer{display:flex;justify-content:center}.value{font-weight:700}.label,.value{display:block;font-size:60px}.label{font-weight:900}.field{margin-right:30px;border:2px solid red;min-width:200px;text-align:center}

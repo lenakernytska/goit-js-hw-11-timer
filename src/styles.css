@@ -7,14 +7,25 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.timer {
+  display: flex;
+  justify-content: center;
+}
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+.value {
+  display: block;
+  font-weight: 700;
+  font-size: 60px;
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+.label {
+  display: block;
+  font-weight: 900;
+  font-size: 60px;
+}
+.field {
+  margin-right: 30px;
+  border: 2px solid red;
+  min-width: 200px;
+  text-align: center;
 }
